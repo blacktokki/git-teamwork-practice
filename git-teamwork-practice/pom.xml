@@ -71,6 +71,11 @@
     		<artifactId>font-awesome</artifactId>
     		<version>4.7.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<!-- ORM -->
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
