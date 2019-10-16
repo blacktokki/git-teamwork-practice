@@ -34,7 +34,8 @@ public class BoardController {
 	}
 	
 	@GetMapping("/content/{id}")//글내용 보기 /board/content
-	public String content(@PathVariable String idx,Map<Object, Object> map){
+	public String content(@PathVariable String id,Map<Object, Object> map){
+		map.put("id",id);
 		boardService.content(map);
 		return "boardContent";
 	}
