@@ -7,9 +7,9 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class WebControllerYDH {
 	
-	@GetMapping("templateSJS")// 사용자가 칠 주소명.
-	public String templateSJS(){
-		return "templateSJS";//jsp파일명 
+	@GetMapping("templateYDH")// 사용자가 칠 주소명.
+	public String templateYDH(){
+		return "templateYDH";//jsp파일명 
 	}
 	
 }
