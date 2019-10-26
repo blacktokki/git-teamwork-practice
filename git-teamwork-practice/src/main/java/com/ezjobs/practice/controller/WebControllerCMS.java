@@ -7,9 +7,9 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class WebControllerCMS {
 	
-	@GetMapping("admin_user")
-	public String admin_user(){
-		return "admin_user";
+	@GetMapping("adminUser")
+	public String adminUser(){
+		return "adminUser";
 	}
 
 }
